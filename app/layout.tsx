@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import {Public_Sans} from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const publicSans = Public_Sans({
   variable: "--font-public-sans",
@@ -23,10 +24,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${publicSans.variable}  antialiased`}
+        className={`${publicSans.variable} antialiased`}
       >
         <Navbar></Navbar>
         {children}
+        <Footer></Footer>
         
       </body>
     </html>
