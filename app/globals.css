@@ -1,7 +1,9 @@
 @import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 
 :root {
-  --background: #ffffff;
+  --background: #fffafa;
   --foreground: #ffffff;
 }
 
@@ -14,7 +16,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #ffffff;
+    --background: #fffafa;
     --foreground: #ededed;
   }
 }

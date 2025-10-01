@@ -35,8 +35,8 @@ export default function ServicesCards() {
     <section className="px-[120px] mt-[188px] mb-[150px]">
       {/* Section Title */}
       <div className=" mb-10">
-        <h2 className="text-5xl font-bold text-gray-800">Designed for All</h2>
-        <p className="text-sm text-gray-600 mt-2">Whether you are booking services, managing tasks, or running operations, we have designed the perfect experience for you.</p>
+        <h2 className="text-5xl mb-3 font-bold text-center text-gray-800">Designed for All</h2>
+        <p className="text-sm text-gray-600 text-center mx-auto w-[551px] mt-2">Whether you are booking services, managing tasks, or running operations, we have designed the perfect experience for you.</p>
       </div>
 
       {/* Cards */}
