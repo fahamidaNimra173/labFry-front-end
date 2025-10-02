@@ -4,7 +4,18 @@ import { BiSolidQuoteLeft } from "react-icons/bi";
 import Slider from "react-slick";
 import Image from "next/image";
 
-const testimonials = [
+
+
+interface Testimonial {
+  id: number;
+  name: string;
+  role: string;
+  comment: string;
+  image: string;
+}
+
+
+const testimonials:Testimonial[] = [
     {
         id: 1,
         name: "Farzana H.",

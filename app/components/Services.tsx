@@ -3,7 +3,16 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const cardsData = [
+type CardType = {
+  id: number;
+  image: string;
+  badge: string;
+  title: string;
+  description: string;
+  points: string[];
+};
+
+const cardsData:CardType[] = [
   {
     id: 1,
     image: "/image 2.png",

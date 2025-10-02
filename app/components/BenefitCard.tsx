@@ -1,8 +1,16 @@
+import { ReactElement } from "react";
 import { BiCalendar, BiCurrentLocation, BiShield } from "react-icons/bi";
 
 import { GoGraph } from "react-icons/go";
 
-const cardsData = [
+
+type CardType = {
+  id: number;
+  icon: ReactElement;
+  title: string;
+  description: string;
+};
+const cardsData:CardType[] = [
     {
         id: 1,
         icon: <BiCalendar className="text-[#EE3638] text-3xl" />,
